@@ -81,6 +81,12 @@ section.main-content-area {
              nav {
                  min-height: 60%;
              }
+             .links {
+                 display: flex;
+                 flex-direction: column-reverse;
+                 align-items: center;
+
+             }
          }
 
          .right-side{ width:60%;
@@ -103,4 +109,4 @@ h4{border-bottom: 2px dashed red;
     font-weight: unset;
     margin: 0 0 5px 0;
     text-transform: uppercase;
-}
+}}
