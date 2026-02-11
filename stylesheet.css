@@ -86,10 +86,19 @@ section.main-content-area {
          .right-side{ width:60%;
              background-color: white;
              padding: 10px;
-         p{font-size:10px;}}
+         p{font-size:12px;
+             margin-bottom:0;}
 
     }
 }
+    div.more{   text-align: right;
+        margin: 0;
+        a{ text-decoration: none;
+        color: red;
+        font-size: 10px;
+        &:hover {
+            text-decoration: underline;}}
+    }
 h4{border-bottom: 2px dashed red;
     font-weight: unset;
     margin: 0 0 5px 0;
