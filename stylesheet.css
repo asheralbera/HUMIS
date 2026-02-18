@@ -1,18 +1,17 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    /*specify other
-     fonts in case the browser can't find the specific one - then last
-      say serif or sans in case the second one is also not there*/
+    background-color: lightgray;
 }
 
 div#parent {
-    border: 1px solid black;
+
     width: 780px;
     margin: 0 auto;
+    background-color: white;
 }
 
 div#parent section {
-    border: 1px solid black;
+
 }
 
 section.subhead {
@@ -28,14 +27,24 @@ section.footer {
     padding: 8px 0;
 }
 
-section.main-content-area {
+section.main-content-area { border: black solid 1px;
     min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("files/uofu_medallion_rt.gif");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 
     nav.secondary {
         min-height: 20px;
-        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
         padding-right: 20px;
+        padding-bottom: 10px;
         font-size: 11px;
+        gap: 5px;
 
         a {
             margin: 0 5px;
@@ -43,14 +52,12 @@ section.main-content-area {
             text-decoration: none;
             text-transform: uppercase;
 
-            &:hover { /*pseudo class declaration - do something on an action*/
+            &:hover {
                 text-decoration: underline;
             }
         }
 
         &.bottom { font-size: 9px;
-            /* this is a class, so it can
-                   override the default we made for uppercase*/
 
             a {
                 text-transform: lowercase;
@@ -64,28 +71,31 @@ section.main-content-area {
         border-radius: 10px;
         min-height: 400px;
          display: flex;
-
-          > * { border: 1px solid black;
-              margin: 10px;
-          /* the >* means 'all children of the parent in which you put the tag */
-
+         justify-content:space-between;
+         margin-bottom: 70px;
+         width: 90%;
+         margin: 5px auto 70px;
           }
 
-         .left-side{ width:40%;
+         .left-side{ width:30%;
              display: flex;
              flex-direction: column;
              justify-content: space-between;
 
-              > * { border: 3px solid black;}
-
              nav {
-                 min-height: 60%;
+
+                 font-size: 10px;
                  display: flex;
                  flex-direction: column;
-                 justify-content: space-around;
+                 justify-content: space-between;
+                 margin-right: 30px;
+                 margin-left: 30px;
                  a{ text-decoration: none;
+                     text-transform: uppercase;
+                     border-bottom: #60663E 2px solid;
                      display: block;
                      color: black;
+                     padding: 12px 0 0px 18px;
                      &:hover {background-color: #60663E;
                      color: white;}
                  }
@@ -95,27 +105,39 @@ section.main-content-area {
                  flex-direction: column-reverse;
                  align-items: center;
 
+
              }
          }
 
-         .right-side{ width:60%;
+         .right-side{ width:62%;
              background-color: white;
              padding: 10px;
          p{font-size:12px;
              margin-bottom:0;}
+             img{ width: 100%;
+             margin-bottom:5px;}
 
     }
 }
-    div.more{   text-align: right;
-        margin: 0;
+    div.more{   display: flex;
+        justify-content: flex-end;
+
         a{ text-decoration: none;
         color: red;
         font-size: 10px;
         &:hover {
             text-decoration: underline;}}
     }
+
 h4{border-bottom: 2px dashed red;
     font-weight: unset;
     margin: 0 0 5px 0;
     text-transform: uppercase;
-}}
+}
+section.footer {
+    background-color: #60663E;
+    text-align: center;
+    color: white;
+    font-size: 11px;
+    padding: 8px 0;
+}
