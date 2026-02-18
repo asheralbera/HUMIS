@@ -83,7 +83,7 @@ section.main-content-area { border: black solid 1px;
 
              nav {
 
-                 font-size: 12px;
+                 font-size: 11px;
                  display: flex;
                  flex-direction: column;
                  justify-content: space-between;
