@@ -69,14 +69,14 @@ section.main-content-area { border: black solid 1px;
         background-color: #BEC4A1;
         padding: 20px;
         border-radius: 10px;
-        min-height: 600px;
+        min-height: 400px;
          display: flex;
          justify-content:space-between;
          width: 90%;
          margin: 5px auto 70px;
           }
 
-         .left-side{ width:30%;
+         .left-side{ width:40%;
              display: flex;
              flex-direction: column;
              justify-content: space-between;
@@ -94,7 +94,7 @@ section.main-content-area { border: black solid 1px;
                      border-bottom: #60663E 2px solid;
                      display: block;
                      color: black;
-                     padding: 12px 0 5px 18px;
+                     padding: 10px 0 10px 20px;
                      &:hover {background-color: #60663E;
                      color: white;}
                  }
@@ -109,7 +109,7 @@ section.main-content-area { border: black solid 1px;
          .right-side{ width:62%;
              background-color: white;
              padding: 10px;
-           
+
          p{font-size:12px;
              margin-bottom:0;}
              img{ width: 100%;
