@@ -10,21 +10,9 @@ div#parent {
     background-color: white;
 }
 
-div#parent section {
-
-}
-
 section.subhead {
     background: url('files/histHomepic.jpg') top left no-repeat;
     height: 50px;
-}
-
-section.footer {
-    background-color: #60663E;
-    text-align: center;
-    color: white;
-    font-size: 11px;
-    padding: 8px 0;
 }
 
 section.main-content-area { border: black solid 1px;
@@ -69,7 +57,7 @@ section.main-content-area { border: black solid 1px;
         background-color: #BEC4A1;
         padding: 20px;
         border-radius: 10px;
-        min-height: 400px;
+        min-height: 500px;
          display: flex;
          justify-content:space-between;
          width: 90%;
@@ -84,9 +72,6 @@ section.main-content-area { border: black solid 1px;
              nav {
 
                  font-size: 11px;
-                 display: flex;
-                 flex-direction: column;
-                 justify-content: space-between;
                  margin-right: 10px;
                  margin-left: 10px;
                  a{ text-decoration: none;
@@ -99,22 +84,22 @@ section.main-content-area { border: black solid 1px;
                      color: white;}
                  }
              }
-             .links {padding: 5px;
+             .links {
                  display: flex;
                  flex-direction: column-reverse;
-                 align-items: center;
+                 align-items: flex-start;
              }
          }
 
          .right-side{ width:62%;
              background-color: white;
              padding: 10px;
+             max-height: fit-content;
 
          p{font-size:12px;
              margin-bottom:0;}
              img{ width: 100%;
              margin-bottom:5px;}
-
     }
 }
     div.more{   display: flex;
