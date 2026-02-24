@@ -8,6 +8,7 @@ div#parent {
     width: 780px;
     margin: 0 auto;
     background-color: white;
+
 }
 
 section.subhead {
@@ -70,16 +71,16 @@ section.main-content-area {
              justify-content: space-between;
 
              nav {
-
                  font-size: 11px;
-                 margin-right: 10px;
+                 margin-right: 50px;
                  margin-left: 10px;
                  a{ text-decoration: none;
                      text-transform: uppercase;
-                     border-bottom: #60663E 2px solid;
+                     border-bottom: #60663E 1px solid;
                      display: block;
+                     margin-left: 20px;
                      color: black;
-                     padding: 10px 0 10px 20px;
+                     padding: 15px 0 5px 20px;
                      &:hover {background-color: #60663E;
                      color: white;}
                  }
@@ -88,6 +89,7 @@ section.main-content-area {
                  display: flex;
                  flex-direction: column-reverse;
                  align-items: flex-start;
+                 padding: 20px 10px;
              }
          }
 
@@ -108,11 +110,12 @@ section.main-content-area {
         a{ text-decoration: none;
         color: red;
         font-size: 10px;
+            padding-top: 8px;
         &:hover {
             text-decoration: underline;}}
     }
 
-h4{border-bottom: 2px dashed red;
+h4{border-bottom: 1px dashed red;
     font-weight: unset;
     margin: 0 0 5px 0;
     text-transform: uppercase;
