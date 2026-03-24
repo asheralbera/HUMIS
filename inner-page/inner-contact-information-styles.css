@@ -11,7 +11,6 @@ body {
             background: url('/files/historyHeader.gif') top left no-repeat;
             height: 82px;
         }
-
         section.main-content {
 
             display: flex;
