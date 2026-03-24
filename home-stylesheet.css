@@ -89,7 +89,7 @@ section.main-content-area {
                  display: flex;
                  flex-direction: column-reverse;
                  align-items: flex-start;
-                 padding: 20px 10px;
+                padding: 30px;
              }
          }
 
