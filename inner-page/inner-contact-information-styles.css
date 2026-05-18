@@ -8,7 +8,7 @@ body {
 
 
         section.head {
-            background: url('/files/historyHeader.gif') top left no-repeat;
+            background: url('files/historyHeader.gif') top left no-repeat;
             height: 82px;
         }
         section.main-content {
